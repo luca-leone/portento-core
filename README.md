@@ -460,8 +460,6 @@ Check the resolution order: component providers → router providers → root sc
 ## Architecture Documentation
 
 For detailed architecture information, see:
-- [ARCHITECTURE.md](./docs/ARCHITECTURE.md) - Single-container design
-- [IMPLEMENTATION_SUMMARY.md](./docs/IMPLEMENTATION_SUMMARY.md) - Technical implementation
 - [USAGE_PATTERNS.md](./docs/USAGE_PATTERNS.md) - Component patterns
 
 ## License
