@@ -14,7 +14,7 @@ Lightweight dependency injection framework for React and React Native with seaml
 - 🔄 **Automatic Resolution** - Smart dependency injection with hierarchical fallback
 - 🧪 **Testing Utilities** - Reset scopes for isolated unit tests
 - 📦 **TypeScript-first** - Full type safety and IntelliSense support
-- 🌐 **Framework Agnostic** - Works with React, React Native, and Angular
+
 
 ## Installation
 
