@@ -1,0 +1,4 @@
+node_modules/
+dist/
+docs/ARCHITECTURE.md
+docs/IMPLEMENTATION_SUMMARY.md

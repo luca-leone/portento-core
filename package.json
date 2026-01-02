@@ -1,0 +1,50 @@
+{
+  "name": "@portento/core",
+  "version": "0.1.0",
+  "description": "Lightweight dependency injection framework for React with MobX integration",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:luca-leone/portento-core"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "angular",
+    "dependency injection",
+    "decorators",
+    "ioc",
+    "inversion of control",
+    "mobx",
+    "typescript"
+  ],
+  "author": "Luca Leone",
+  "license": "MIT",
+  "peerDependencies": {
+    "mobx": "^6.0.0",
+    "mobx-react": "^7.0.0 || ^9.0.0",
+    "react": ">=16.8.0",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "mobx": "^6.15.0",
+    "mobx-react": "^9.2.1",
+    "reflect-metadata": "^0.2.2",
+    "tsup": "^8.0.0",
+    "tsyringe": "^4.10.0",
+    "typescript": "^5.0.0"
+  }
+}
